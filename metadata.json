@@ -1,0 +1,6 @@
+{
+  "name": "Ngasal Era - Website Kado Ulang Tahun Estetik",
+  "description": "Katalog dan jasa pembuatan website kado ulang tahun interaktif bertema pastel scrapbook & polaroid. Dilengkapi demo live tiup lilin, pemutar musik, dan amplop ucapan rahasia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
