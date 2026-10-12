@@ -73,7 +73,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
               <ShoppingCart className="h-7 w-7" />
             </span>
             <h3 className="font-editorial text-xl font-bold text-[#F5EEF3]">Keranjang masih kosong</h3>
-            <p className="mt-2 max-w-xs text-sm text-[#C6B8C1]">Pilih desain kado yang ingin kamu personalisasi.</p>
+
             <button
               type="button"
               onClick={onBrowse}
@@ -137,7 +137,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-[#C24B60] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#A83D51]"
                 >
                   <ShoppingCart className="h-4 w-4" />
-                  Pesan desain ini
+                  Pesan
                 </button>
               )}
             </footer>

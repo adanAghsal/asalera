@@ -455,9 +455,11 @@ Mohon informasi nomor rekening/QRIS untuk pembayaran dan proses pembuatannya ya 
                     Rp {totalPrice.toLocaleString('id-ID')}
                   </p>
                 </div>
-                <span className="text-[11px] text-[#3B7A57] bg-[#EBF7F0] px-2.5 py-1 rounded-lg font-semibold">
-                  Garansi Revisi Sepuasnya
-                </span>
+               
+<span className="text-[11px] text-white bg-[#3B7A57] px-2.5 py-1 rounded-lg font-semibold">
+  Garansi Revisi Sepuasnya
+</span>
+
               </div>
 
               {/* WhatsApp Action Buttons */}
