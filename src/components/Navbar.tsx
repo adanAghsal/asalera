@@ -26,7 +26,7 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, onOpenCart, isCheckou
           )}
           <button onClick={onGoToCatalog} className="flex items-center tracking-tight group">
             <span className="text-xl sm:text-2xl font-black leading-none tracking-[0.18em] text-[#F5EEF3]">
-              <span className="text-[#C24B60]">ASA</span>LERA
+              <span className="text-[#C24B60]">MEMO</span>U
             </span>
           </button>
         </div>
