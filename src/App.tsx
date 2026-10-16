@@ -26,7 +26,7 @@ export default function App() {
   const [orderTemplateId, setOrderTemplateId] = useState(() => new URLSearchParams(window.location.search).get('template') || 'anime-romance');
   const [cartTemplateIds, setCartTemplateIds] = useState<string[]>(() => {
     try {
-      const savedCart: unknown = JSON.parse(window.localStorage.getItem('asalera-cart') || '[]');
+      const savedCart: unknown = JSON.parse(window.localStorage.getItem('memou-cart') || '[]');
       return Array.isArray(savedCart) ? savedCart.filter((id): id is string => typeof id === 'string') : [];
     } catch {
       return [];
@@ -45,7 +45,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    window.localStorage.setItem('asalera-cart', JSON.stringify(cartTemplateIds));
+    window.localStorage.setItem('memou-cart', JSON.stringify(cartTemplateIds));
   }, [cartTemplateIds]);
 
   const handleOpenDemo = (templateId?: string) => {

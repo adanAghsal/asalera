@@ -14,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDemo, onScrollToCatalog }) => 
       title: 'Trio Joy Celebration',
       tag: 'Birthday Squad Edition',
       image: heroAnimeImg,
-      headline: 'BUAT WEBSITE KADO ULANG TAHUN YANG KEREN & PERSONAL HANYA DI ASALERA.',
+      headline: 'BUAT WEBSITE KADO ULANG TAHUN YANG KEREN & PERSONAL HANYA DI MEMOU.',
       description: 'Website kado interaktif dengan fitur tiup lilin nyata, pemutar musik lofi, galeri memori, dan amplop pesan rahasia yang bikin dia tersenyum bahagia.',
       badge: '🎂 21st',
       rating: '4.98'

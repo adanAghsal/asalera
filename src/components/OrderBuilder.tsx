@@ -66,7 +66,7 @@ export const OrderBuilder: React.FC<OrderBuilderProps> = ({
     if (order.addons.quizMiniGame) addonsList.push('Mini Game Kuis Kenangan');
     if (order.addons.fastExpress) addonsList.push('Proses Kilat 12 Jam');
 
-    return `Halo Admin Asalera! 👋✨
+    return `Halo Admin Memou! 👋✨
 Saya ingin memesan Website Kado Ulang Tahun dengan rincian berikut:
 
 📌 DATA PESANAN:

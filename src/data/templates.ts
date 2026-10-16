@@ -200,7 +200,7 @@ export const TESTIMONIALS_DATA = [
     id: 2,
     name: 'Dimas Aditya',
     role: 'Pesan untuk Istri Tercinta',
-    comment: 'Pengerjaannya cepet banget, adminnya ramah pas aku minta revisi ganti foto. Waktu istriku buka amplop surat virtualnya, dia langsung peluk aku. Terima kasih Asalera!',
+    comment: 'Pengerjaannya cepet banget, adminnya ramah pas aku minta revisi ganti foto. Waktu istriku buka amplop surat virtualnya, dia langsung peluk aku. Terima kasih Memou!',
     rating: 5,
     tag: 'Surat Virtual'
   },
